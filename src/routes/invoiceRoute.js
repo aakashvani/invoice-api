@@ -1,14 +1,21 @@
 const express = require("express");
-const { getAllInvoice, creatingInvoice } = require("../controllers/invoiceController");
+const {
+  getAllInvoice,
+  creatingInvoice,
+  updateInvoice,
+  deleteInvoice,
+  getByDate,
+} = require("../controllers/invoiceController");
+
+const validateDate = require("../middleware/invoiceValidation");
 
 const router = express.Router();
 
-router.get("/", (req, res, next) => {
-  res.send("Welcome to invoice api");
-});
-
 // creating route endpoint
-router.post("/", creatingInvoice)
-router.get("/allinvoice", getAllInvoice);
+router.post("/invoice", validateDate, creatingInvoice);
+router.patch("/invoice/:number", validateDate, updateInvoice);
+router.get("/invoice", getAllInvoice);
+router.get("/invoice/date/:endDate/:startDate", getByDate);
+router.delete("/invoice/:number", deleteInvoice);
 
 module.exports = router;
