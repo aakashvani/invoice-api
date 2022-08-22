@@ -51,6 +51,9 @@ code is a plus, along with Readme.md for documentation.
 ```
   https://api-invoice-api.herokuapp.com/api/invoice
 ```
+
+
+
 #### To GET Invoice between two dates
 
 ```
@@ -60,17 +63,23 @@ code is a plus, along with Readme.md for documentation.
     https://api-invoice-api.herokuapp.com/api/invoice/date/2022-06-01/2022-05-05/
 ```
 
+
+
 #### To POST/CREATE an Invoice
 
 ```
    https://api-invoice-api.herokuapp.com/api/invoice
 ```
 
+
+
 #### To PATCH an Invoice by Invoice number
 
 ```
    https://api-invoice-api.herokuapp.com/api/invoice/:number
 ```
+
+
 #### To DELETE an Invoice by Invoice number
 
 ```
@@ -84,14 +93,22 @@ code is a plus, along with Readme.md for documentation.
 #### To GET all Invoice  
 ![user signup and login](./assets/getAllinvoice.gif)
 
+<br />
+
 #### To GET Invoice between two dates
 ![user signup and login](./assets/getBetween.gif)
+
+<br />
 
 #### To POST/CREATE an Invoice
 ![user signup and login](./assets/postInvoice.gif)
 
+<br />
+
 #### To PATCH an Invoice by Invoice number
 ![user signup and login](./assets/patchInvoice.gif)
+
+<br />
 
 #### To DELETE an Invoice by Invoice number
 ![user signup and login](./assets/deleteInvoice.gif)
