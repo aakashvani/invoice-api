@@ -73,14 +73,14 @@ code is a plus, along with Readme.md for documentation.
 
 
 
-#### To PATCH an Invoice by Invoice number
+#### To PATCH an Invoice based on Invoice number
 
 ```
    https://api-invoice-api.herokuapp.com/api/invoice/:number
 ```
 
 
-#### To DELETE an Invoice by Invoice number
+#### To DELETE an Invoice based on Invoice number
 
 ```
    https://api-invoice-api.herokuapp.com/api/invoice/:number
