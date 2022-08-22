@@ -74,7 +74,7 @@ code is a plus, along with Readme.md for documentation.
 #### To DELETE an Invoice by Invoice number
 
 ```
-   https://api-invoice-api.herokuapp.com/api/invoice
+   https://api-invoice-api.herokuapp.com/api/invoice/:number
 ```
 
 
