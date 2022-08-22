@@ -7,8 +7,8 @@ const {
   getByDate,
 } = require("../controllers/invoiceController");
 
+// middleware for validation
 const validateDate = require("../middleware/invoiceValidation");
-
 const router = express.Router();
 
 // creating route endpoint

@@ -1,6 +1,6 @@
 const Invoice = require("../models/invoiceModel");
 
-// to create an invoice :- [Enter new invoice details]
+// to create an invoice :- 
 const creatingInvoice = async (req, res, next) => {
   try {
     const invoice = await Invoice.create(req.body);
@@ -10,20 +10,17 @@ const creatingInvoice = async (req, res, next) => {
   }
 };
 
-// to get all invoice :- [Get all invoices stored in the db]
+// to get all invoices stored in the db :- 
 const getAllInvoice = async (req, res, next) => {
   try {
-    const invoices = await Invoice.find()
-      // .sort({ invoiceNumber: 1 })
-      .lean()
-      .exec();
+    const invoices = await Invoice.find().lean().exec();
     return res.status(201).send(invoices);
   } catch (error) {
     return res.status(404).send({ message: error.message });
   }
 };
 
-// to update by invoice number :- [Update a specific invoice based on invoice number]
+// to update based on invoice number :- 
 const updateInvoice = async (req, res, next) => {
   try {
     const invoice = await Invoice.findOneAndUpdate(
@@ -37,7 +34,7 @@ const updateInvoice = async (req, res, next) => {
   }
 };
 
-// To GET all invoices between two dates :-
+// To DELETE an Invoice based on Invoice number :- 
 const deleteInvoice = async (req, res, next) => {
   try {
     const invoice = await Invoice.findOneAndDelete({
@@ -49,6 +46,7 @@ const deleteInvoice = async (req, res, next) => {
   }
 };
 
+// To GET Invoice between two dates :- 
 const getByDate = async (req, res, next) => {
   try {
     const invoices = await Invoice.aggregate([
