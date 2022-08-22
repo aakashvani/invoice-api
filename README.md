@@ -79,6 +79,23 @@ code is a plus, along with Readme.md for documentation.
 
 
 
+## Presentation
+
+#### To GET all Invoice  
+![user signup and login](./assets/getAllinvoice.gif)
+
+#### To GET Invoice between two dates
+![user signup and login](./assets/getBetween.gif)
+
+#### To POST/CREATE an Invoice
+![user signup and login](./assets/postInvoice.gif)
+
+#### To PATCH an Invoice by Invoice number
+![user signup and login](./assets/patchInvoice.gif)
+
+#### To DELETE an Invoice by Invoice number
+![user signup and login](./assets/deleteInvoice.gif)
+
 
 
 
