@@ -1,7 +1,5 @@
 <h1 align="center"><b>INVOICE API</b></h1>
 
-<h2 align="center"> Technokart Assignment </h2>    
-
 <br />
 
 <p align="center">
