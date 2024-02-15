@@ -130,7 +130,7 @@ code is a plus, along with Readme.md for documentation.
 
 If you want to contact me, you can reach me through below handles.
 
-[![linkedin](https://img.shields.io/badge/aakashvani17-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aakashvani17/)
+[![linkedin](https://img.shields.io/badge/aakashvani17-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aakashvani/)
 [![Github](https://img.shields.io/badge/aakashvani17-20232A?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/Aakashvani)
 
 © 2022 Technokart
